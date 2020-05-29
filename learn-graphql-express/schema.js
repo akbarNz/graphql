@@ -1,7 +1,7 @@
 const {buildSchema} = require("graphql")
 
 const schema = buildSchema(`
-input MessageInput {
+  input MessageInput {
     content: String
     author: String
   }
